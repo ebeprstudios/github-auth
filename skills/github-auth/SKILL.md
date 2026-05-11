@@ -1,6 +1,6 @@
 ---
 name: github-auth
-description: Authenticate the GitHub CLI (gh) on this machine via device-code browser flow. Use whenever the user runs `gh auth login`, asks to "sign into GitHub", reports `gh` permission errors (e.g. "gh: not authenticated", "HTTP 401"), or needs to refresh / switch GitHub accounts. Handles the long-running interactive prompt, surfaces the one-time code, and retries cleanly on timeout.
+description: 'Authenticate the GitHub CLI (gh) on this machine via device-code browser flow. Use whenever the user runs `gh auth login`, asks to "sign into GitHub", reports `gh` permission errors (e.g. "gh not authenticated", "HTTP 401"), or needs to refresh or switch GitHub accounts. Handles the long-running interactive prompt, surfaces the one-time code, and retries cleanly on timeout.'
 ---
 
 # GitHub CLI Authentication
